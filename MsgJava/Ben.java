@@ -5,7 +5,7 @@ public class Ben {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a name: ");
         String name = input.nextLine();
-        System.out.println("Enter a port number (123345)");
+        System.out.println("Enter a port number (12345)");
         int port = input.nextInt();
 
 

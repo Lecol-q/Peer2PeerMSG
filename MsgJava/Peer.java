@@ -108,10 +108,8 @@ public class Peer extends Thread {
             // listening
             serverSocket = new ServerSocket(port);
             System.out.println("Server started. Waiting for client...");
-
             // accepted
             clientSocket = serverSocket.accept();
-            
             System.out.println("Peer Connected!");
             connected = true;
         } catch (IOException e) {
