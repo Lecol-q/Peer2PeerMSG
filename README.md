@@ -9,7 +9,9 @@ Uses java net package. Programs a socket and server socket to communicate.
 2. if you are on MacOS run MsgJava.command. If you are on Windows run MsgJava.bat
 
 Once the program starts running in the terminal follow the prompts
-<img width="335" height="170" alt="Screenshot 2026-09-09 at 4 47 58 PM" src="https://github.com/user-attachments/assets/b627e8cc-22ab-4413-af2f-4ea5159fa459" /><br>
+
+
+<img width="335" height="170" alt="Screenshot 2026-09-09 at 4 47 58 PM" src="https://github.com/user-attachments/assets/b627e8cc-22ab-4413-af2f-4ea5159fa459" />
 
 
 1. Enter a name
