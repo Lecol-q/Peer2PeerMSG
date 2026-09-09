@@ -8,6 +8,7 @@ public class Peer extends Thread {
     Socket clientSocket;
     int port;
     boolean connected;
+    String IP;
 
     // I/O
     Scanner input;
@@ -19,8 +20,9 @@ public class Peer extends Thread {
     int response;
 
     // constructor with name, and port
-    public Peer(String name, int port) {
+    public Peer(String name, String IP,int port) {
         this.name = name;
+        this.IP = IP;
         this.port = port;
     }
 
@@ -95,7 +97,7 @@ public class Peer extends Thread {
 
     public void joinPeer(){
         try {
-            clientSocket = new Socket("localhost", port);
+            clientSocket = new Socket(IP, port);
             System.out.println("Peer Connected!");
             connected = true;
         } catch (IOException e) {
