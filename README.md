@@ -27,6 +27,8 @@ From there you should be connected and can send string inputs to each other thro
 - Collin Le
 
 ## Version History
+* Latest-release
+   - Works with different networks
 *  Pre-release
    - Currently only works via local host
 
