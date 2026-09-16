@@ -1,0 +1,28 @@
+#scene {
+    -fx-background-color: black;
+}
+
+.button {
+    -fx-background-color: orange;
+}
+
+.vbox {
+    -fx-background-color: orange;
+    -fx-border: 2px
+}
+
+.mainText {
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+.mainText2 {
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+/*.mainPane {
+    -fx-background-color: blue;
+}*/
+
+
