@@ -1,8 +1,21 @@
+# About this project
+This is a learning project with two goals
+1. to learn about socket programming
+2. to design a GUI
+
+There are two version of this project. One is a command line messaging program and the other is implemented with a GUI
+
+The GUI is still not finished but close. You can read more about the GUI implementation further below.
+
+
 # Java Peer to Peer Terminal Messaging
 Very simple terminal peer to peer messaging program for java.
 
 ## Description
 Uses java net package. Programs a socket and server socket to communicate.
+
+# Java Peer to Peer Messaging Application
+This works the same way as the command line version however instead of running in the command line it acts as its own application. The GUI was implemented using the JavaFX framework
 
 ## Getting Started
 1. Download TerminalMsgJava folder
